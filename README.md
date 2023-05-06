@@ -5,7 +5,7 @@
 
 パスなどが実行環境と異なる点をご理解ください。
 
-# LSTMCellを用いたLSTM Seq2Seqの実装
+# LSTMCellを用いたLSTM Seq2Seqの実装 (lstmcell_seq2seq/)
 英日対訳コーパス ASPEC(https://jipsti.jst.go.jp/aspec/) を用いて、英語から日本語への翻訳を実装しました。
 
 実装にはtorch.LSTMCellを利用しています。
@@ -14,7 +14,6 @@
 | path | Description |
 | --- | --- |
 | `result/` | testデータを翻訳して出力した英語文 `lstm_s2s_{epoch数}_{epoch bleu(nltk)}`の書式|
-| `script/python/` | 学習などに用いたスクリプトやクラスファイルが配置されている |
 | `_train.ipynb` | モデルを学習するスクリプト |
 | `_test.ipynb` | testデータを翻訳し、結果を書き出すスクリプト |
 
