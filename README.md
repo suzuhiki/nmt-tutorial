@@ -8,6 +8,8 @@
 # LSTMCellを用いたLSTM Seq2Seqの実装 (lstmcell_seq2seq/)
 英日対訳コーパス ASPEC(https://jipsti.jst.go.jp/aspec/) を用いて、英語から日本語への翻訳を実装しました。
 
+トークナイズにはmosesとkyteaを利用しました。
+
 実装にはtorch.LSTMCellを利用しています。
 ## ファイルの場所
 
